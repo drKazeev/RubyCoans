@@ -16,12 +16,11 @@
 def triangle(a, b, c)
   if (a==b && b==c) 
 	:equilateral
-  else
-	if (a==b || b==c|| a==c)
+  elsif (a==b || b==c|| a==c)
 		:isosceles
 	else
 		:scalene
-		
+	end
 	
 end
 
