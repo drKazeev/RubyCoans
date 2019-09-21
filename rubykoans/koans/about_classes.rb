@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 class AboutClasses < Neo::Koan
   class Dog
   end
-
+				
   def test_instances_of_classes_can_be_created_with_new
     fido = Dog.new
     assert_equal Dog, fido.class
